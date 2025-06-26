@@ -49,3 +49,6 @@ Requirements are as follows:
     - Widgets shouldn't interact with service objects nor interfaces, they can only interact with BLOC objects.
     - BLOC objects shouldn't interact with any interface, just to domain-level services.
     - Domain-level objects shouldn't interact with concrete objects, they can only interact with interfaces when querying or saving data or doing any call to external API.
+
+> [!CAUTION]
+> IA-generated code will be detected, avoid usage of any LLM model.
