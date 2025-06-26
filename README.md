@@ -27,6 +27,9 @@ Please add these items as issues to your repo and close them using commits or pu
 
 The required app is the classic ToDo list.
 
+> [!CAUTION]
+> IA-generated code will be detected, avoid usage of any LLM model.
+
 Requirements are as follows:
 
 - Feature requirements:
@@ -50,5 +53,3 @@ Requirements are as follows:
     - BLOC objects shouldn't interact with any interface, just to domain-level services.
     - Domain-level objects shouldn't interact with concrete objects, they can only interact with interfaces when querying or saving data or doing any call to external API.
 
-> [!CAUTION]
-> IA-generated code will be detected, avoid usage of any LLM model.
